@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // 编译选项
+    "target": "ES2016", // 配置编译目标代码的版本标准
+    "module": "ES6", // 配置编译模块化标准
+//    "moduleResolution": "node", // 配置模块解析方式
+//    "allowSyntheticDefaultImports": true, // 允许从没有设置默认导出的模块中默认导入
+//    "allowUnreachableCode": false, // 允许执行无法到达的代码
+//    "allowUnusedLabels": false, // 允许不使用定义的标签
+//    "alwaysStrict": true, // 总是使用严格模式
+//    "baseUrl": "./", // 解析非相对模块名称的基准目录
+    "lib": ["ES2016"], // 编译时需要引入的库文件
+    "types": ["node"],
+    "moduleResolution": "node",
+    "strictNullChecks": true
+  },
+  "include": ["./src"]
+}
