@@ -11,7 +11,8 @@
 //    "baseUrl": "./", // 解析非相对模块名称的基准目录
     "lib": ["ES2016"], // 编译时需要引入的库文件
     "types": ["node"],
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "strictNullChecks": true
   },
   "include": ["./src"]
 }
