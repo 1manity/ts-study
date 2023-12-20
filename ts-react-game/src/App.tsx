@@ -1,13 +1,33 @@
 import React from 'react';
+import {ChessType} from "./types/enums";
+import {BoardComp} from "./components/BoardComp";
 
+
+const types: ChessType[] = [
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+    ChessType.none,
+]
 
 function App() {
-  return (
-    <div>
-      <h1>App.tsx</h1>
+    return (
+        <div>
+            <BoardComp
+                chess={types}
+                // isGameOver={true}
+                onClick={(i)=> {
+                    console.log(i)
+                }}
+            ></BoardComp>
 
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
