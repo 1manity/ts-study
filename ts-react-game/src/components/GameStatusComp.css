@@ -1,0 +1,22 @@
+.status {
+    text-align: center;
+    font-size: 1.5em;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+
+}
+.status .red {
+    color: #f20;
+}
+.status .black {
+    color: #000;
+}
+.status .equal {
+    color: rgb(114,114,114);
+}
+.status .win {
+    border: 2px solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
